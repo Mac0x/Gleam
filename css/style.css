@@ -1,5 +1,49 @@
 
     @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+    @media screen and (max-width:320px) {
+         /* CSS for screens that are 320 pixels or less will be put in this section */
+    }
+    @media screen and (min-width:320px) and (max-width:640px) {
+        /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+    }
+    /* code that is here, until the first @media block, will apply to any screen size */
+    #somethingorother {
+        width: 800px ;
+    }
+
+    @media screen and (max-width: 320px) {
+        /* comes into effect for screens less than or equal to 320 pixels */
+     #somethingorother {
+        width: 120px ;
+        }
+    }
+    @media screen and (min-width: 321px) and (max-width: 480px) {
+        /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+        #somethingorother {
+            width: 320px ;
+        }
+    }
+    @media screen and (min-width: 481px) {
+        /* comes into effect for screens larger than or equal to 481 pixels */
+        #somethingorother {
+            width: 480px ;
+        }
+    }
+
+    /* code that is here will apply to any screen size */
+    @media screen and (orientation:portrait) {
+        /* ... */
+    }
+    @media screen and (orientation: landscape) {
+        /* ... */
+    }
+    @media only screen and (max-width: 480px) {
+        /* ... */
+    }
+    @media not (max-width: 639px) {
+        /* CSS rules for any device that is wider than 639 pixels */
+    }
+    
     @font-face {
         font-family: "Poppins";
         src: local("Poppins Regular"), local("Poppins-Regular"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.5a6c15af.woff2) format("woff2"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.9b9d9585.woff) format("woff"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.82a4136e.ttf) format("truetype");
@@ -28,7 +72,7 @@
         white-space: normal;
         text-align: center;
         font-size: 90px; 
-        font-family: Cold Warm, "Arial Black", sans-serif;
+        font-family: "Cold Warm Regular", "Arial Black", sans-serif;
         color: #ffc248;
         text-shadow: 3px 3px 6px #4dbcdf;
         text-shadow: 5px 5px 10px #000;
@@ -41,7 +85,7 @@
         font-size: 70px; 
         text-decoration: underline;
         text-decoration-style: solid;
-        font-family: "Poppins";
+        font-family: "Poppins-Regular";
         color: #ffc248;
         text-shadow: 5px 5px 10px #000;
         background-blend-mode: color-dodge;
