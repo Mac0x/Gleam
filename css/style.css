@@ -16,7 +16,7 @@
     
     
     body {
-        background-image: url('images/Scene_5_Color.jpg');
+        background-image: url('/images/Scene_5_Color.jpg');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
