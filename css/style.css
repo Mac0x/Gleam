@@ -12,7 +12,7 @@
         font-family: "Cold Warm Regular";
         font-style: normal;
         font-weight: 400;
-        src: local("Cold Warm Regular"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/ColdWarm.074b36a4.woff) format("woff")
+        src: local("Cold Warm Regular"), url(css/Cold Warm.otf) format("woff");
 	}
 
     @media screen and (max-width:320px) {
