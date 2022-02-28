@@ -20,10 +20,10 @@
     }
     @media screen and (min-width:320px) and (max-width:640px) {
         /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
-    }
-    /* code that is here, until the first @media block, will apply to any screen size */
+        /* code that is here, until the first @media block, will apply to any screen size */
     #somethingorother {
         width: 800px ;
+        }
     }
 
     @media screen and (max-width: 320px) {
@@ -64,8 +64,6 @@
         /* CSS rules for any device that is wider than 639 pixels */
     }
     
-    }
-    
     html { 
         background: url('../images/Scene_5_Color.jpg') no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -73,12 +71,6 @@
         -o-background-size: cover;
         background-size: cover;
     }
-    /**body {
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-    }**/
-
     
     h1 {
         word-wrap: break-word;
@@ -90,7 +82,6 @@
         text-shadow: 3px 3px 6px #4dbcdf;
         text-shadow: 5px 5px 10px #000;
         background-blend-mode: color-dodge;
-        /**background-color: black;**/
     }
 
     h2 {
