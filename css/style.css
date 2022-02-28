@@ -1,5 +1,6 @@
 
     @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+    @import url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/ColdWarm.074b36a4.woff);
     @font-face {
         font-family: "Poppins";
         src: local("Poppins Regular"), local("Poppins-Regular"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.5a6c15af.woff2) format("woff2"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.9b9d9585.woff) format("woff"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/Poppins-Regular.82a4136e.ttf) format("truetype");
@@ -12,6 +13,7 @@
         font-style: normal;
         font-weight: 400;
         src: local("Cold Warm Regular"), url(https://d2ir3791ijipum.cloudfront.net/rb/static/media/ColdWarm.074b36a4.woff) format("woff")
+	}
 
     @media screen and (max-width:320px) {
          /* CSS for screens that are 320 pixels or less will be put in this section */
