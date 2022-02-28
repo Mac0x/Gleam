@@ -9,11 +9,13 @@
     }
     
     @font-face {
-        font-family: "Cold Warm Regular";
-        font-style: normal;
-        font-weight: 400;
-        src: local("Cold Warm Regular"), url(css/Cold Warm.otf) format("woff");
-	}
+    	font-family: 'cold_warmregular';
+    	src: url('cold_warm-webfont.woff2') format('woff2'),
+             url('cold_warm-webfont.woff') format('woff');
+    	font-weight: 400;
+    	font-style: normal;
+
+     }
 
     @media screen and (max-width:320px) {
          /* CSS for screens that are 320 pixels or less will be put in this section */
