@@ -97,7 +97,7 @@
         background-blend-mode: color-dodge;
     }
 
-    .header-socials {
+    /*.header-socials {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -152,7 +152,7 @@
     .header-socials__item>svg {
         width: 25px;
         height: 36px
-    }
+    }*/
 
     .button {
   	display: inline-block;
